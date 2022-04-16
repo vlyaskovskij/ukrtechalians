@@ -335,3 +335,11 @@ to { opacity: 1 }
 .hide:checked + label:before {
     content: "\2212";
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 1680px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
