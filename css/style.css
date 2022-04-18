@@ -336,6 +336,10 @@ to { opacity: 1 }
     content: "\2212";
 }
 
+.list-services-button p:hover {
+    color: #7941A2;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 1680px;
