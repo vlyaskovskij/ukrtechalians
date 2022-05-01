@@ -1,18 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>УкрТехАльянс</title>
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header container">
         <nav class="main-navigation">
             <div class="main-navigation-wrapper">
                 <div class="container-header">
@@ -25,7 +27,7 @@
                         <li class="nav"><a href="#about">Про нас</a></li>
                         <li class="nav"><a href="#services">Послуги</a></li>
                         <li class="nav"><a href="#contact">Контакти</a></li>
-                        <li class="nav-overalls"><a href="#">Спецодяг</a></li>
+                        <li class="nav-overalls"><a href="clothes.html">Спецодяг</a></li>
                     </ul>
                 </div>
             </div>
@@ -33,8 +35,8 @@
     </header>
     <main class="container">
         <section class="title-content" id="about">
-            <h1>Укртехальянс</h1>
-            <p>
+            <h1 class="animated fadeInRight">Укртехальянс</h1>
+            <p class="animated fadeInLeft">
                 Надаємо повний спектр послуг у сфері
                 охорони праці, пожежної безпеки
                 екології та аутсорсингу
@@ -63,7 +65,7 @@
                     <h2>Наші послуги</h2>
             </div>
                 <div class="catalog">
-                    <section class="services">
+                    <section class="services animleft animated">
                         <img src="img/Навчання.svg" alt="Начання">
                         <h3 class="services-name">Навчання</h3>
                         <ul class="list-services">
@@ -73,7 +75,7 @@
                             <li>Професійно-технічна освіта</li>
                         </ul>
                     </section>
-                    <section class="services">
+                    <section class="services animright animated">
                         <img src="img/Лабораторія.svg" alt="Лабораторія">
                         <h3 class="services-name">Лабораторія</h3>
                         <ul class="list-services">
@@ -83,7 +85,7 @@
                             <li>Аналіз повітря в оселі та офісі</li>
                         </ul>
                     </section>
-                    <section class="services">
+                    <section class="services animleft animated">
                         <img src="img/Экология.svg" alt="Екологія">
                         <h3 class="services-name">Екологія</h3>
                         <ul class="list-services">
@@ -96,7 +98,7 @@
                             <li>Інструментально-лабораторні вимірювання параметрів викидів забруднюючих речовин в повітря пересувними джерелами (автотранспорт)</li>
                         </ul>
                     </section>
-                    <section class="services">
+                    <section class="services animright animated">
                         <img src="img/Охорона труда.svg" alt="Охорона праці">
                         <h3 class="services-name">Охорона праці</h3>
                         <ul class="list-services-button">
@@ -187,19 +189,19 @@
                 <h2>Контакти</h2>
             </div>
             <div class="contact-container">
-                <section class="section-contact">
+                <section class="section-contact animleft animated">
                     <h4>Адреса</h4>
                     <p>Луцьк, 43020 <br>вул. Електроапаратна 3, офіс 102</p>
                 </section>
-                <section class="section-contact">
+                <section class="section-contact animright animated">
                     <h4>Графік роботи</h4>
                     <p>пн-пт, з 9:00 до 17:00</p>
                 </section>
-                <section class="section-contact">
+                <section class="section-contact animleft animated">
                     <h4>Телефони</h4>
                     <p>+38 (067) 888 99 44<br>+38 (093) 988 99 44</p>
                 </section>
-                <section class="section-contact">
+                <section class="section-contact animright animated">
                     <h4>Пошта</h4>
                     <p>ukrtehalyans@gmail.com</p>
                 </section>
@@ -208,9 +210,9 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10098.994766361771!2d25.380156!3d50.7431498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4014493b669f4731!2z0KPQutGA0YLQtdGF0LDQu9GM0Y_QvdGB!5e0!3m2!1sru!2spl!4v1649788854755!5m2!1sru!2spl" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
         </section>
-        <footer class="footer">
+        <footer class="footer ">
             <nav class="main-footer">
-                <div class="main-footer-wrapper">
+                <div class="main-footer-wrapper container">
                     <div class="container-footer">
                         <a href="#" class="main-logo-footer">
                     <img src="img/logo.svg" width="150px" height="200px" alt="Логотип УкрТехАльянса">
@@ -219,7 +221,7 @@
                             <li class="nav"><a href="#about">Про нас</a></li>
                             <li class="nav"><a href="#services">Послуги</a></li>
                             <li class="nav"><a href="#contact">Контакти</a></li>
-                            <li class="nav-overalls"><a href="">Спецодяг</a></li>
+                            <li class="nav-overalls"><a href="clothes.html">Спецодяг</a></li>
                         </ul>
                     </div>
                 </div>
@@ -227,5 +229,7 @@
         </footer>
     </main>
 </section> 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
