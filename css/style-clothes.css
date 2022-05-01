@@ -514,17 +514,21 @@ to { opacity: 1 }
         margin-right: 0px;
     }
 
-    h3 {
-        font-size: 30px;
+    .site-navigation {
+        padding-top: 0px;
+    }
+
+    .main-services h3 {
+        font-size: 20px;
     }
 
     .services-title h2, .contact-title h2 {
-        text-align: center;
-        font-size: 30px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .section-contact p {
-        font-size: 20px;
+        font-size: 10px;
     }
 
 	.container {
@@ -537,8 +541,22 @@ to { opacity: 1 }
        padding: 0%;
        
     }
+
+    .services p {
+        font-size: 15px;
+    }
+
+    .button-contact {
+        padding: 5px 10px;
+        margin: 5px 50px;
+    }
+
+    .contact h4 {
+        font-size: 25px;
+    }
+
     .services {
-        width: 400px;
+        width: 95%;
     }
 
     .title-content h1 {
@@ -569,6 +587,7 @@ to { opacity: 1 }
     .footer {
         font-size: 10px;
     }
+    
 }
 
 .lightbox {
