@@ -166,6 +166,10 @@ header {
     margin-bottom: 40px;
 }
 
+.butwinter {
+    margin: 10px 40%;
+}
+
 .description {
     margin: 0 auto;
     width: 950px;
@@ -192,6 +196,10 @@ header {
     align-items: baseline;
 }
 
+.catwinter {
+    justify-content: center;
+}
+
 .container-img {
     text-align: center;
 }
@@ -203,6 +211,10 @@ header {
     border: 4px solid #7a41a275;
     border-radius: 25px;
     vertical-align:top;
+}
+
+.winter {
+    width: 80%;
 }
 
 .services p{
@@ -509,6 +521,10 @@ to { opacity: 1 }
 
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
+    .catalogwinter img {
+        height: 350px;
+        width: 200px;
+    }
 
     .site-navigation li {
         margin-right: 0px;
