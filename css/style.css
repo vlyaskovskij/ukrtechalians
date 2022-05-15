@@ -464,6 +464,9 @@ to { opacity: 1 }
 
 /* 320px - 576px */
 @media screen and (max-width: 576px) {
+    header {
+        line-height: 0px;
+    }
 
     .site-navigation li {
         margin-right: 0px;
@@ -473,9 +476,14 @@ to { opacity: 1 }
         font-size: 30px;
     }
 
+    .services-title, .contact-title {
+        height: 70px;
+    }
+
     .services-title h2, .contact-title h2 {
         text-align: center;
         font-size: 30px;
+        line-height: 70px;
     }
 
     .section-contact p {
@@ -494,8 +502,8 @@ to { opacity: 1 }
     }
 
     .title-content h1 {
-        font-size: 20px;
-        padding-top: 5px;
+        font-size: 40px;
+        padding-top: 23px;
     }
 	
     .site-navigation {
@@ -514,11 +522,24 @@ to { opacity: 1 }
     .title-content p {
         width: 90%;
         margin: 0 auto;
-        font-size: 10px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main-logo-footer {
+        height: 90px;
+    }
+
+    .footer img {
+        height: 100px;
+        width: 100px;
     }
 
     .footer {
         font-size: 10px;
+    }
+
+    .footer li {
+        display: inline;
     }
 }
