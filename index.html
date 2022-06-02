@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
                 <div class="container-header">
                     <div class="logo-container">
                             <a href="#" class="main-header-logo">
-                        <img src="img/logo.svg" alt="Логотип УкрТехАльянса">
+                        <img src="img/logo.svg" alt="Логотип_УкрТехАльянса">
                             </a>
                      </div>
                     <ul class="site-navigation">
@@ -99,7 +99,7 @@
                         </ul>
                     </section>
                     <section class="services animright animated">
-                        <img src="img/Охорона труда.svg" alt="Охорона праці">
+                        <img src="img/Охорона_труда.svg" alt="Охорона_праці">
                         <h3 class="services-name">Охорона праці</h3>
                         <ul class="list-services-button">
                             <input class="hide" id="hd-1" type="checkbox">
@@ -188,6 +188,21 @@
             <div class="contact-title" id="contact">
                 <h2>Контакти</h2>
             </div>
+            <div class="container--form">
+                <h4>Залиште свої данні і ми з вами зв'яжемося!</h4>
+                <form>
+                    <!-- Hidden Required Fields -->
+                    <input type="hidden" name="project_name" value="">
+                    <input type="hidden" name="admin_email" value="">
+                    <input type="hidden" name="form_subject" value="">
+                    <!-- END Hidden Required Fields -->
+                    <input class="text" type="text" name="Ім'я" placeholder="Ім'я" required><br>
+                    <input class="text" type="text" name="E-mail" placeholder="E-mail" required><br>
+                    <input class="text" type="text" name="Номер телефону" placeholder="Номер телефону"><br>
+                    <input class="form--button" type="submit" value="Відправити">
+            
+                </form>
+            </div>
             <div class="contact-container">
                 <section class="section-contact animleft animated">
                     <h4>Адреса</h4>
@@ -203,11 +218,11 @@
                 </section>
                 <section class="section-contact animright animated">
                     <h4>Пошта</h4>
-                    <p>ukrtehalyans@gmail.com</p>
+                    <a href="mailto:ukrtehalyans@gmail.com"><p>ukrtehalyans@gmail.com</p></a>
                 </section>
             </div>
                 <section class="maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10098.994766361771!2d25.380156!3d50.7431498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4014493b669f4731!2z0KPQutGA0YLQtdGF0LDQu9GM0Y_QvdGB!5e0!3m2!1sru!2spl!4v1649788854755!5m2!1sru!2spl" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10098.994766361771!2d25.380156!3d50.7431498!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4014493b669f4731!2z0KPQutGA0YLQtdGF0LDQu9GM0Y_QvdGB!5e0!3m2!1suk!2spl!4v1652956347412!5m2!1suk!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
         </section>
         <footer class="footer ">
@@ -215,7 +230,7 @@
                 <div class="main-footer-wrapper container">
                     <div class="container-footer">
                         <a href="#" class="main-logo-footer">
-                    <img src="img/logo.svg" width="150px" height="200px" alt="Логотип УкрТехАльянса">
+                    <img src="img/logo.svg" width="150px" height="200px" alt="Логотип_УкрТехАльянса">
                         </a>
                         <ul class="footer-navigation">
                             <li class="nav"><a href="#about">Про нас</a></li>
@@ -228,8 +243,7 @@
             </nav>
         </footer>
     </main>
-</section> 
-<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
