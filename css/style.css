@@ -196,12 +196,14 @@ header {
     width: 125px;
 }
 
-.list-services a{
+.services a{
   color: #000000;
+  font-weight: 550;
 }
 
-.list-services a:hover {
+.services a:hover {
   color: #7941A2;
+  cursor: pointer;
 }
 
 .list-services-button {
